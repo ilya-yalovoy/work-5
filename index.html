@@ -1,0 +1,229 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body class="noScroll">
+  <script>
+    
+    window.onload = function () {
+      setTimeout(() => {
+        document.querySelector('.preloader__container').classList.add('loaded');
+        document.querySelector('body').classList.remove('noScroll');
+      }, 5000);
+    }
+  </script>
+  <div class="preloader__container">
+    <div class="preloader">
+      <span>l</span>
+      <span>o</span>
+      <span>g</span>
+      <span>o</span>
+    </div>
+  </div>
+  <div class="wrapper">
+  <header class="header" id="home">
+    <div class="header__inner">
+      <img class="header__inner-image" src="images/logo.png" alt="header-image">
+      <nav class="header__menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__item-link" href="#home">Home</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__item-link" href="#about">About Us</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__item-link" href="#service">Services</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__item-link" href="#blog">Blogs</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="menu__button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="header__button" href="#">Gift Finder</a>
+    </div>
+  </header>
+    <main class="main">
+      <section class="screen">
+        <div class="container">
+        <div class="screen__inner">
+          <div class="screen__info">
+            <div class="screen__title">
+              Find a gift for your wife or girlfriend
+            </div>
+            <div class="screen__text">
+              Struggling to find a gift for your wife or girlfriend?
+              No problem!
+            </div>
+            <a class="screen__button">
+              Find gift now
+            </a>
+          </div>
+            <img class="screen__image" src="images/screen-image.png" alt="screen__image">
+        </div>
+      </div>
+      </section>
+
+      <section class="work" id="about">
+        <div class="container">
+        <div class="work__inner">
+          <img class="work__image" src="images/work-image.png" alt="work__image">
+          <div class="work__info">
+            <div class="work__title">
+              How we work
+            </div>
+            <div class="work__text">
+              We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.
+            </div>
+            <a class="work__button">
+              Find gift now
+            </a>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section class="gifts" id="service">
+        <div class="container">
+          <div class="gifts__inner">
+            <div class="gifts__title">
+              Gifts for all Occasions
+            </div>
+            <div class="gifts__text">
+              “Try our web app to find the best gifts for all occasions”
+            </div>
+            <div class="gifts__items">
+              <div class="gifts__item">
+                <img class="gifts__item-image" src="images/Birthday.png" alt="gifts__item-image">
+                <p class="gifts__item-text">Birthday</p>
+                <a class="gifts__item-link">See More ›</a>
+              </div>
+              <div class="gifts__item">
+                <img class="gifts__item-image" src="images/Anniversary.png" alt="gifts__item-image">
+                <p class="gifts__item-text">Anniversary</p>
+                <a class="gifts__item-link">See More ›</a>
+              </div>
+              <div class="gifts__item">
+                <img class="gifts__item-image" src="images/Valentine%27s%20Day.png" alt="gifts__item-image">
+                <p class="gifts__item-text">Valentine's Day</p>
+                <a class="gifts__item-link">See More ›</a>
+              </div>
+              <div class="gifts__item">
+                <img class="gifts__item-image" src="images/Christmas.png" alt="gifts__item-image">
+                <p class="gifts__item-text">Christmas</p>
+                <a class="gifts__item-link">See More ›</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="find">
+        <div class="container">
+          <div class="find__inner">
+            <div class="find__info">
+              <p class="find__info-title">Ready to get started?</p>
+              <p class="find__info-text">Sign up or contact us</p>
+            </div>
+            <div class="find__buttons">
+              <a class="find__button" href="#">Find gift now</a>
+              <a class="find__button find__button-second" href="#">how it works</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog" id="blog">
+        <div class="container">
+          <div class="blog__inner">
+            <div class="blog__title">Our Best Blogs Ever</div>
+            <div class="blog__text">“Try our blog to find the best tips and tricks to select your gift”</div>
+
+            <div class="blog__box">
+              <div class="blog__main">
+                <img class="blog__image" src="images/blog-image.png" alt="blog__image">
+                <div class="blog__main-info">
+                <p class="blog__main-author">Mr. John Doe</p>
+                <p class="blog__main-title">The best way to wish your wife</p>
+                <a class="blog__main-link" href="#">Read More</a>
+              </div>
+              </div>
+              <div class="blog__item">
+                <p class="blog__item-title">Database to find the gifts for your girlfriend</p>
+                <p class="blog__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                <a class="blog__item-link" href="#">Read More</a>
+              </div>
+              <div class="blog__item">
+                <p class="blog__item-title">How Artificial Intelligence read your mind to find the best gift</p>
+                <p class="blog__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                <a class="blog__item-link" href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <nav class="footer__menu">
+            <ul class="footer__list">
+              <li class="footer__item">  
+              <a class="footer__item-link" href="#">Home</a>
+            </li>
+            <li class="footer__item">  
+               <a class="footer__item-link" href="#">About</a>
+              </li>
+              <img class="footer__logo" src="images/footer-logo.png" alt="footer-logo">
+              <li class="footer__item">  
+              <a class="footer__item-link" href="#">Service</a>
+            </li>
+            <li class="footer__item">  
+              <a class="footer__item-link" href="#">Blog</a>
+            </li>
+            </ul>
+          </nav>
+          <div class="footer__social">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-item" src="images/facebook.png" alt="social">
+              </a>
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-item" src="images/twitter.png" alt="social">
+              </a>
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-item" src="images/instagram.png" alt="social">
+              </a>
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-item" src="images/youtuve.png" alt="social">
+              </a>
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-item" src="images/printerest.png" alt="social">
+              </a>
+          </div>
+          <div class="footer__rights">
+            © 2010 — 2020 Privacy — Terms
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+
+
+</body></html>
